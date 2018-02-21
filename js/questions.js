@@ -67,7 +67,7 @@ function gestionarXml(dadesXml){
  var nres = xmlDoc.getElementById("profe_003").getElementsByTagName('answer').length;
  for (i = 0; i < nres; i++) { 
   respuestasCheckbox[i]=xmlDoc.getElementById("profe_003").getElementsByTagName("answer")[i].innerHTML;
- 
+ }
  //RADIO
  var tituloSelect1=xmlDoc.getElementsByTagName("title")[3].innerHTML;
  var opcionesSelect1 = [];
