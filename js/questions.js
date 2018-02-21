@@ -71,9 +71,9 @@ function gestionarXml(dadesXml){
  //RADIO
  var tituloSelect1=xmlDoc.getElementsByTagName("title")[3].innerHTML;
  var opcionesSelect1 = [];
- var nopt1 = xmlDoc.getElementById("profe_003").getElementsByTagName('option').length;
+ var nopt1 = xmlDoc.getElementById("profe_004").getElementsByTagName('option').length;
   for (i = 0; i < nopt; i++) { 
-    opcionesSelect1[i] = xmlDoc.getElementById("profe_003").getElementsByTagName('option')[i].innerHTML;
+    opcionesSelect1[i] = xmlDoc.getElementById("profe_004").getElementsByTagName('option')[i].innerHTML;
  }
  ponerDatosSelectHtml(tituloSelect1,opcionesSelect1);
  respuestaSelect1=parseInt(xmlDoc.getElementsByTagName("answer")[3].innerHTML);
